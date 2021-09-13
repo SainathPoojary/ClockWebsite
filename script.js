@@ -5,7 +5,7 @@ const zeroFill = (num, places) => String(num).padStart(places, "0");
 // minute.innerHTML = "25";
 min = 1;
 hr = 2;
-setInterval(setClock, 500);
+setInterval(setClock, 100);
 
 function setClock() {
   let today = new Date();
